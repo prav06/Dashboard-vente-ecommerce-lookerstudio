@@ -26,5 +26,5 @@ Au-delà de la création des graphiques, une partie importante du travail a port
 ---
 
 ## 📷 Aperçu du Dashboard
-*<img width="1420" height="1050" alt="image" src="https://github.com/user-attachments/assets/aaa9c31e-4401-46f3-ba8d-759400b38180" />
-*
+<img width="1420" height="1050" alt="image" src="https://github.com/user-attachments/assets/aaa9c31e-4401-46f3-ba8d-759400b38180" />
+
