@@ -1,32 +1,27 @@
-# Dashboard-vente-ecommerce-lookerstudio
+# Dashboard de Performance E-Commerce & Analytics
 
-# 📊 E-commerce Sales & Retail Intelligence Dashboard
-
-![Dashboard Preview](<img width="1420" height="1050" alt="image" src="https://github.com/user-attachments/assets/88b01e0e-1a17-43ec-aa40-11ea49e4653e" />
-)
-
-## 📌 Présentation du Projet
-Conception et déploiement d'un tableau de bord interactif sous **Looker Studio** permettant d'analyser la performance commerciale globale d'une entreprise e-commerce (Superstore Sales Dataset). 
-
-Le dashboard offre une vue à 360° aux décideurs business pour piloter le chiffre d'affaires, analyser le comportement d'achat et suivre les ventes par segment.
+## Présentation du projet
+Ce projet consiste en la création d'un tableau de bord interactif développé sur Looker Studio à partir d'un jeu de données e-commerce (Superstore Sales). L'objectif était de concevoir un outil de pilotage clair pour aider les équipes business à suivre le chiffre d'affaires, analyser le comportement d'achat et identifier les produits les plus performants.
 
 🔗 **[Accéder au Dashboard Interactif Looker Studio](https://datastudio.google.com/reporting/f2b683ec-a16f-4488-b0b2-a6670fe82272)**
 
 ---
 
-## 🎯 Indicateurs Clés & Analyses (KPIs)
-* **Performance Globale :** Suivi du Chiffre d'Affaires total ($214M+), du Panier Moyen (AOV), du Volume de Commandes (947) et des Clients Uniques (589).
-* **Analyse Temporelle :** Évolution mensuelle des ventes pour identifier la saisonnalité.
-* **Segmentation Client :** Répartition des revenus par segment (*Consumer, Corporate, Home Office*).
-* **Top Produits :** Classement des sous-catégories générant le plus de chiffre d'affaires (Phones, Chairs, Tables, etc.).
-* **Filtres Dynamiques :** Analyse personnalisée par plage de dates, catégorie, région et segment.
+## Ce que permet d'analyser le tableau de bord
+
+* **Vue d'ensemble de la performance :** Suivi en temps réel des métriques clés comme le chiffre d'affaires global, le panier moyen, le nombre total de commandes et le volume de clients uniques.
+* **Analyse de la saisonnalité :** Visualisation de l'évolution mensuelle des ventes pour repérer les pics d'activité et les périodes creuses.
+* **Structure des ventes :** Répartition des revenus par profil de client (particuliers, entreprises, home office) et identification des catégories de produits qui génèrent le plus de valeur.
+* **Exploration sur mesure :** Intégration de filtres dynamiques permettant de croiser les données par période, région géographique ou segment.
 
 ---
 
-## 🛠️ Stack Technique & Méthodologie
-* **Visualisation :** Looker Studio
-* **Préparation & Nettoyage de données :** Google Sheets & Fonctions Looker Studio (`CAST`, `REGEXP_REPLACE`, `COUNT_DISTINCT`)
-* **Modélisation :** Typage des données (Devises, Dates, Identifiants uniques) et résolution des anomalies de conversion texte/nombre.
+## Méthodologie et aspect technique
+
+Au-delà de la création des graphiques, une partie importante du travail a porté sur la préparation des données :
+* Nettoyage et formatage des données brutes sous Google Sheets et Looker Studio.
+* Traitement des problèmes de conversion (nettoyage des symboles monétaires, gestion des décimales et des formats de dates).
+* Création de champs calculés et dédoublonnage des identifiants (commandes et clients) pour garantir l'exactitude des calculs.
 
 ---
 
